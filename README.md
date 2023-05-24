@@ -10,3 +10,5 @@ uppercase letter, and at least one digit.
 Given a string password, return the minimum number of steps
 required to make password strong. if password is already
 strong, return 0.
+i have mentioned Logic for PasswordValidation in passwordUtils.js file
+
