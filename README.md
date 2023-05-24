@@ -15,3 +15,8 @@ strong, return 0.
 
 3.i have created ui design in App.js.
 
+Once you pull the all code Just open the terminal with this directory
+
+  1.npm install
+  2.npx react-native start
+  3.npx react-native run-android
