@@ -25,24 +25,14 @@ export const isPasswordStrong = () =>{
       hasDigit = true;
     }
   
-    if (!hasLower) {
-      steps++;
+    if (hasLower) {
+      //show error mesage
     }
-    if (!hasUpper) {
-      steps++;
+    if (hasUpper) {
+        //show error mesage
     }
-    if (!hasDigit) {
-      steps++;
-    }
-  
-    for (let i = 2; i < password.length; i++) {
-      if (
-        password[i] === password[i - 1] &&
-        password[i - 1] === password[i - 2]
-      ) {
-        steps++;
-        break;
-      }
+    if (hasDigit) {
+        //show error mesage
     }
   
     return steps;
