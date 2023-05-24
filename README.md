@@ -12,5 +12,6 @@ required to make password strong. if password is already
 strong, return 0.
 
 2.i have mentioned Logic for PasswordValidation in passwordUtils.js file
+
 3.i have created ui design in App.js.
 
